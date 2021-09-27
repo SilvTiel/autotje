@@ -1,12 +1,32 @@
-/* body{
+body{
     margin:0px;
     padding:0px;
     width:100%;
     height:100%;
-} */
+    background-image:url('afbeeldingen/stad-achtergrond.jpg');
+    background-repeat: no-repeat;
+    background-position-x:-50px;
+}
 
 .auto{
     width:50px;
     height:50px;
-    background-color:black;
+    object-fit:cover;
+    display:block;
+    background-repeat:no-repeat;
+    background-size:cover;
+    fill:red;
+    background-image:url('afbeeldingen/car.png');
 }
+
+.uitleg{
+    position:absolute;
+    margin:15px;
+    right:0px;
+    top:0px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
